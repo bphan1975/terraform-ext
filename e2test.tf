@@ -1,7 +1,7 @@
 resource "aws_instance" "web_host" {
   # ec2 have plain text secrets in user data
   ami           = "${var.ami}"
-  instance_type = "m6.4xlarge"
+  instance_type = "m5.4xlarge"
 
   vpc_security_group_ids = [
   "${aws_security_group.web-node.id}"]

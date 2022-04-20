@@ -20,5 +20,5 @@ jobs:
       with:
         soft_fail: true
         api-key: ${{ secrets.BC_API_KEY }}
-        download-external-module: true
+        download-external-modules: true
         directory: .

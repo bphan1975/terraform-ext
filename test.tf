@@ -5,7 +5,7 @@ module "s3_bucket" {
   user_enabled             = true
   versioning_enabled       = false
   allowed_bucket_actions   = ["s3:GetObject", "s3:ListBucket", "s3:GetBucketLocation"]
-  name                     = "mytestapp"
+  name                     = "testapp2"
   stage                    = "test"
   namespace                = "eg"
 } 
